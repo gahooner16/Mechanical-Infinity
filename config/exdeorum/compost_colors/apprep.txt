@@ -1,0 +1,7 @@
+// Compost colors for apprep. You may add your own colors, change existing ones, or remove colors that aren't needed.
+matter_cell_16k, #364752
+matter_cell_1k, #364752
+matter_cell_256k, #364752
+matter_cell_4k, #364752
+matter_cell_64k, #364752
+matter_cell_housing, #364752

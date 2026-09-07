@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"mekanism:deepslate_uranium_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"replication:deepslate_replica_ore"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

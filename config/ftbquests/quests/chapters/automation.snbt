@@ -1,0 +1,168 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	default_quest_size: 0.75d
+	filename: "automation"
+	group: "516A7C1DC3F3854A"
+	id: "4F70370612551BCE"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "06D12AE525522BE4"
+			tasks: [{
+				id: "1B2CC6F82EE0705E"
+				item: { count: 1, id: "mekmm:planting_station" }
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5E654452F29586EA"]
+			id: "46AC9EC20EA1F984"
+			tasks: [{
+				id: "494235A678D9EF2E"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5E654452F29586EA"]
+			id: "325D534AA901917B"
+			tasks: [{
+				id: "6AD37D7EEB7A3BE7"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 0.375d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7147BDB236828C78"]
+			id: "5E654452F29586EA"
+			tasks: [{
+				id: "26BC6877BE991276"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 1.125d
+			y: -2.25d
+		}
+		{
+			dependencies: ["69AB5AFE33107BCD"]
+			id: "17774B524B631757"
+			tasks: [{
+				id: "162CF755D5E7A15A"
+				item: { count: 1, id: "kubejs:earth_essence" }
+				type: "item"
+			}]
+			x: 0.375d
+			y: 1.5d
+		}
+		{
+			dependencies: ["398687F801DD233F"]
+			id: "69A120B8470564AD"
+			tasks: [{
+				id: "667F1322670967C7"
+				item: { count: 1, id: "kubejs:metallic_essence" }
+				type: "item"
+			}]
+			x: 1.125d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CBA248FA63FBDA4"
+				"17774B524B631757"
+				"69A120B8470564AD"
+			]
+			id: "1B6C7E865E64BD29"
+			tasks: [{
+				id: "5D03273EC8AD50CF"
+				item: { count: 1, id: "kubejs:precious_essence" }
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.625d
+		}
+		{
+			dependencies: ["022FBB265236F851"]
+			id: "290A4E366BE7FC72"
+			tasks: [{
+				id: "10C6F66E7D5FBE41"
+				item: { count: 1, id: "kubejs:nether_essence" }
+				type: "item"
+			}]
+			x: 1.875d
+			y: 1.5d
+		}
+		{
+			dependencies: ["24DE6113062A3493"]
+			id: "5E96E8FCBFCCA50C"
+			tasks: [{
+				id: "748E01675282284A"
+				item: { count: 1, id: "kubejs:ender_essence" }
+				type: "item"
+			}]
+			x: 2.625d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"46AC9EC20EA1F984"
+				"325D534AA901917B"
+			]
+			id: "69AB5AFE33107BCD"
+			tasks: [{
+				id: "78F3CF32523D3257"
+				type: "checkmark"
+			}]
+			x: 0.375d
+			y: -0.375d
+		}
+		{
+			dependencies: ["46AC9EC20EA1F984"]
+			id: "398687F801DD233F"
+			tasks: [{
+				id: "2A7CA080EDFFC5B1"
+				type: "checkmark"
+			}]
+			x: 1.125d
+			y: -0.375d
+		}
+		{
+			dependencies: ["46AC9EC20EA1F984"]
+			id: "022FBB265236F851"
+			tasks: [{
+				id: "2A2DBB512E02E481"
+				type: "checkmark"
+			}]
+			x: 1.875d
+			y: -0.375d
+		}
+		{
+			dependencies: ["46AC9EC20EA1F984"]
+			id: "24DE6113062A3493"
+			tasks: [{
+				id: "2DF37554D9659E13"
+				type: "checkmark"
+			}]
+			x: 2.625d
+			y: -0.375d
+		}
+		{
+			id: "4CBA248FA63FBDA4"
+			tasks: [{
+				id: "199EFC6684CF530B"
+				item: { count: 1, id: "oritech:accelerator_controller" }
+				type: "item"
+			}]
+			x: -0.375d
+			y: 2.625d
+		}
+	]
+}

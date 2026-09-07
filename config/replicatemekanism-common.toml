@@ -1,0 +1,4 @@
+#The maximum stack size for the replica upgrade (1-8)
+# Default: 1
+# Range: 1 ~ 8
+replicaUpgradeMaxStack = 1

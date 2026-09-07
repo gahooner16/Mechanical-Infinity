@@ -1,0 +1,94 @@
+[flux_matter_engine]
+	# Default: 1000
+	# Range: > 1
+	baseFePerMatter = 1000
+	# Default: 100000
+	# Range: > 1
+	baseEnergyCapacity = 100000
+	# Default: 2560
+	# Range: > 1
+	baseEnergyPerTick = 2560
+	# Default: 256000
+	# Range: > 1
+	baseBufferCapacity = 256000
+
+	[flux_matter_engine.matter_costs]
+		# Default: 1000
+		# Range: > 1
+		earth = 1000
+		# Default: 1250
+		# Range: > 1
+		nether = 1250
+		# Default: 900
+		# Range: > 1
+		organic = 900
+		# Default: 1750
+		# Range: > 1
+		ender = 1750
+		# Default: 2500
+		# Range: > 1
+		metallic = 2500
+		# Default: 3200
+		# Range: > 1
+		precious = 3200
+		# Default: 1800
+		# Range: > 1
+		living = 1800
+		# Default: 5000
+		# Range: > 1
+		quantum = 5000
+
+		[flux_matter_engine.upgrade_multipliers.tier_1]
+			# Default: 1.25
+			# Range: 1.0E-4 ~ 1000000.0
+			efficiencyMultiplier = 1.25
+			# Default: 1.1
+			# Range: 1.0E-4 ~ 1000000.0
+			speedMultiplier = 1.1
+			# Default: 1.25
+			# Range: 1.0E-4 ~ 1000000.0
+			capacityMultiplier = 1.25
+
+		[flux_matter_engine.upgrade_multipliers.tier_2]
+			# Default: 5.0
+			# Range: 1.0E-4 ~ 1000000.0
+			efficiencyMultiplier = 5.0
+			# Default: 1.5
+			# Range: 1.0E-4 ~ 1000000.0
+			speedMultiplier = 1.5
+			# Default: 2.0
+			# Range: 1.0E-4 ~ 1000000.0
+			capacityMultiplier = 2.0
+
+		[flux_matter_engine.upgrade_multipliers.tier_3]
+			# Default: 10.0
+			# Range: 1.0E-4 ~ 1000000.0
+			efficiencyMultiplier = 10.0
+			# Default: 2.0
+			# Range: 1.0E-4 ~ 1000000.0
+			speedMultiplier = 2.0
+			# Default: 4.0
+			# Range: 1.0E-4 ~ 1000000.0
+			capacityMultiplier = 4.0
+
+		[flux_matter_engine.upgrade_multipliers.tier_4]
+			# Default: 25.0
+			# Range: 1.0E-4 ~ 1000000.0
+			efficiencyMultiplier = 25.0
+			# Default: 3.0
+			# Range: 1.0E-4 ~ 1000000.0
+			speedMultiplier = 3.0
+			# Default: 8.0
+			# Range: 1.0E-4 ~ 1000000.0
+			capacityMultiplier = 8.0
+
+		[flux_matter_engine.upgrade_multipliers.tier_5]
+			# Default: 100.0
+			# Range: 1.0E-4 ~ 1000000.0
+			efficiencyMultiplier = 100.0
+			# Default: 5.0
+			# Range: 1.0E-4 ~ 1000000.0
+			speedMultiplier = 5.0
+			# Default: 16.0
+			# Range: 1.0E-4 ~ 1000000.0
+			capacityMultiplier = 16.0

@@ -1,0 +1,14 @@
+ars_elemental:vexing_cave_carver
+deeperdarker:cave
+deeperdarker:low_cave
+endercon:cave
+endercon:cave_2
+endercon:cave_pillars
+eternal_starlight:caves
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+minecraft:nether_cave
+twilightforest:highland_caves
+twilightforest:tf_caves
+undergarden:undergarden_cave

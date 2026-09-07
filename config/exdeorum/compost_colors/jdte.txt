@@ -1,0 +1,19 @@
+// Compost colors for jdte. You may add your own colors, change existing ones, or remove colors that aren't needed.
+capacity_upgrade, #d6c8b5
+creative_upgrade, #eed2c2
+eclipsealloy_wrench, #376852
+elder_guardian_essence, #6cc0a5
+ender_dragon_essence, #36183e
+extended_upgrade, #ccd2e0
+factory_package, #52c3ee
+filter_upgrade, #bfc8d9
+fluid_storage_upgrade, #d0d0d0
+fluid_upgrade, #ccd4d7
+generator_upgrade, #c9aa9e
+life_apple, #d41b0f
+life_fluid_bucket, #cda2a0
+overclock_upgrade, #c5b8b6
+range_upgrade, #b5c6d3
+time_fluid_catalyst, #8eff89
+underclock_upgrade, #c5bbb9
+wither_essence, #1b1b1b

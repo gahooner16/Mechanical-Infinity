@@ -1,0 +1,11 @@
+minecraft:overworld
+eternal_starlight:starlight
+twilightforest:twilight_forest
+minecraft:the_nether
+javd:void
+deeperdarker:otherside
+dimensionalpocketsii:pocket
+undergarden:undergarden
+aether:the_aether
+minecraft:the_end
+ae2:spatial_storage

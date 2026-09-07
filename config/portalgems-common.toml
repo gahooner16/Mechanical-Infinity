@@ -1,0 +1,6 @@
+#Cooldown of the gems in ticks (20 ticks = 1 second, 1200 ticks = 1 min)
+# Default: 6000
+# Range: > 20
+cooldown = 6000
+#If using any gem in it's dimension (e.g. Using the nether gem in the nether) should teleport you back to the overworld
+twoway = false

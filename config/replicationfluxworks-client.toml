@@ -1,0 +1,5 @@
+[visuals]
+	#Enable Flux Matter Engine world particles.
+	enableWorldParticles = true
+	#Enable enhanced GUI reactor visuals.
+	enableGuiReactorEffects = true

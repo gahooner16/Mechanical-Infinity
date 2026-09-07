@@ -1,0 +1,9 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"voidminers:rubetine_miner"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:earth_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:organic_essence"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:diamond"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:decorated_pot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:painting","components":{"minecraft:entity_data":{"variant":"minecraft:wither","id":"minecraft:painting"}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

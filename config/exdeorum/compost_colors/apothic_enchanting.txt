@@ -1,0 +1,23 @@
+// Compost colors for apothic_enchanting. You may add your own colors, change existing ones, or remove colors that aren't needed.
+boots_tome, #6f4d37
+bow_tome, #754b34
+chestplate_tome, #6f4d37
+ender_lead, #c2e1cf
+extraction_tome, #4e546c
+fishing_tome, #6f4e34
+flimsy_ender_lead, #fffff4
+helmet_tome, #704e37
+improved_scrap_tome, #4e546c
+inert_trident, #c8d0cd
+infused_breath, #ffffff
+leggings_tome, #6f4d37
+music_disc_arcana, #f2d4f4
+music_disc_eterna, #f4e7de
+music_disc_quanta, #f7dde3
+occult_ender_lead, #c2e1cf
+other_tome, #724d37
+pickaxe_tome, #6f4e34
+prismatic_web, #b8ffee
+scrap_tome, #704b37
+warden_tendril, #ffffff
+weapon_tome, #754b34

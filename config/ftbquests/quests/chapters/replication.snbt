@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "replication"
+	group: "5D51628F116630FF"
+	id: "4D1195150C77BA69"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		id: "77A237316D8F44BF"
+		tasks: [{
+			id: "655FE7A4CE1D2B16"
+			type: "checkmark"
+		}]
+		x: -0.5d
+		y: 0.0d
+	}]
+}

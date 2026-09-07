@@ -1,0 +1,44 @@
+[replication_bridge]
+	#Master switch for all Replication-side overrides applied by Replication: Fluxworks.
+	enableReplicationOverrides = true
+
+	[replication_bridge.replicator]
+		#Replicator FE storage capacity override.
+		# Default: 25000
+		# Range: > 1
+		energyCapacity = 25000
+		#Replicator speed multiplier.
+		#1.0 = vanilla speed.
+		#0.5 = half speed (takes twice as long).
+		#2.0 = double speed (takes half as long).
+		# Default: 1.0
+		# Range: 0.01 ~ 100.0
+		speedMultiplier = 1.0
+		#Scale applied to Replicator FE/t cost.
+		# Default: 1.0
+		# Range: 0.0 ~ 1000.0
+		powerScale = 1.0
+		#How many internal work cycles each Replicator performs per server tick. 1 = vanilla-like behavior. Higher values act like internal multiprocessing.
+		# Default: 1
+		# Range: 1 ~ 256
+		workCyclesPerTick = 1
+		#Failure chance at safest motor setting.
+		# Default: 0
+		# Range: 0 ~ 100
+		failureChanceMin = 0
+		#Failure chance at riskiest motor setting.
+		# Default: 50
+		# Range: 0 ~ 100
+		failureChanceMax = 50
+
+	[replication_bridge.matter_pipe]
+		#Extra scaling for Replication Matter Pipe transfer behavior. 1.0 = unchanged. Higher values increase total transfer.
+		# Default: 1.0
+		# Range: 0.1 ~ 128.0
+		transferScale = 1.0
+
+	[replication_bridge.task_manager]
+		#Bias applied to how many Replicators a MULTIPLE-mode task may attract. 1.0 = default behavior. Higher = more workers can pile onto the same task.
+		# Default: 1.0
+		# Range: 0.1 ~ 32.0
+		multiTaskWorkerShareBias = 1.0

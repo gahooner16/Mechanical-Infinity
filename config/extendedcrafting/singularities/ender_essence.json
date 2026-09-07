@@ -1,0 +1,10 @@
+{
+  "name": "Ender Essence",
+  "colors": [
+    "422805",
+    "664018"
+  ],
+  "ingredient": {
+    "item": "kubejs:ender_essence"
+  }
+}

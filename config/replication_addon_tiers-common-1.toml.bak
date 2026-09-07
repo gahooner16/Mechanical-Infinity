@@ -1,0 +1,21 @@
+#Multiplier for Matter Tank Tier 1
+# Default: 2
+# Range: 1 ~ 32
+tankTier1 = 2
+#Multiplier for Matter Tank Tier 2
+# Default: 4
+# Range: 2 ~ 32
+tankTier2 = 4
+#Multiplier for Matter Tank Tier 3
+# Default: 8
+# Range: 3 ~ 32
+tankTier3 = 8
+#Multiplier for Matter Tank Tier 4
+# Default: 16
+# Range: 4 ~ 32
+tankTier4 = 16
+# nummber of ticks it takes for Replication task 
+# it takes twice the ticks mentioned in the config inside game.
+# Default: 4
+# Range: 1 ~ 100
+advancedReplicator = 4

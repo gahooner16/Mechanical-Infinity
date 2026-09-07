@@ -1,0 +1,74 @@
+#CompactFissionReactor Settings
+["compact fission reactor"]
+	#The capacity in mB of the waste tank of fuel in the Compact Fission Reactor
+	# Default: 18000000
+	# Range: 1920 ~ 9223372036854775807
+	tankCapacity = 18000000
+	#The capacity in mB of the chemical coolant tank of fuel in the Compact Fission Reactor
+	# Default: 18000000000
+	# Range: 1 ~ 9223372036854775807
+	chemicalCoolantTankCapacity = 18000000000
+	#The capacity in mB of the fluid coolant tank of fuel in the Compact Fission Reactor
+	# Default: 2147483647
+	# Range: > 1
+	fluidCoolantTankCapacity = 2147483647
+	#The capacity in mB of the heated coolant tank of fuel in the Compact Fission Reactor
+	# Default: 18000000000
+	# Range: 1 ~ 9223372036854775807
+	heatedCoolantTankCapacity = 18000000000
+	#Max fuel consume per tick of Compact Fission Reactor
+	# Default: 1920
+	# Range: 1 ~ 9223372036854775807
+	burnRate = 1920
+	#Energy Capacity of Compact Fission Reactor
+	# Default: 2500000000
+	# Range: 1 ~ 9223372036854775807
+	energyCapacity = 2500000000
+	#The heat capacity of Compact Fission Reactor
+	# Default: 1000000.0
+	# Range: 1.0 ~ 1.7976931348623157E308
+	HeatCapacity = 1000000.0
+
+#CompactFissionReactor Settings
+["compact turbine"]
+	#chemical Tank Capacity  of Compact Industrial Turbine
+	#maxOutput
+	# Default: 2000000000000
+	# Range: 1 ~ 9223372036854775807
+	maxOutput = 2000000000000
+	#Energy Capacity of Compact Industrial Turbine
+	# Default: 2000000000000
+	# Range: 0 ~ 9223372036854775807
+	chemicalTankCapacity = 2000000000000
+	#Fluid Tank Capacity of Compact Industrial Turbine
+	# Default: 2147483647
+	# Range: > 0
+	fluidTankCapacity = 2147483647
+	#turbine energy production rate magnification
+	# Default: 2.56E7
+	# Range: 0.0 ~ 1.7976931348623157E308
+	energyMagnification = 2.56E7
+	#amount of virtual turbine condenser block
+	# Default: 500
+	# Range: > 0
+	virtualCondenser = 500
+	#amount of virtual turbine disperser block
+	# Default: 500
+	# Range: > 0
+	virtualVent = 500
+	#amount of virtual turbine vent block
+	# Default: 800
+	# Range: > 0
+	upVolume = 800
+	#amount of virtual blade
+	# Default: 200
+	# Range: > 0
+	blades = 200
+	#virtual volume of lower section
+	# Default: 500
+	# Range: > 0
+	lowerVolume = 500
+	#virtual height of compact thermal evaporation block
+	# Default: 36
+	# Range: > 1
+	virtual_height = 36

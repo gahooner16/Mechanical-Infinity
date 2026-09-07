@@ -1,0 +1,7 @@
+// Compost colors for mekmm. You may add your own colors, change existing ones, or remove colors that aren't needed.
+advanced_electrolysis_core, #b2b1b1
+connector, #94a793
+empty_crystal, #aed0fe
+scrap, #695147
+scrap_box, #dacd46
+uu_matter, #d28afe

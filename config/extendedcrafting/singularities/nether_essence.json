@@ -1,0 +1,10 @@
+{
+  "name": "Nether Essence",
+  "colors": [
+    "4339461",
+    "6709272"
+  ],
+  "ingredient": {
+    "item": "kubejs:nether_essence"
+  }
+}

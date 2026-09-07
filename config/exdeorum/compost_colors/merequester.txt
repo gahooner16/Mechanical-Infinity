@@ -1,0 +1,2 @@
+// Compost colors for merequester. You may add your own colors, change existing ones, or remove colors that aren't needed.
+wireless_requester_terminal, #b85576

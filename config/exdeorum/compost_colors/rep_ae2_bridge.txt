@@ -1,0 +1,9 @@
+// Compost colors for rep_ae2_bridge. You may add your own colors, change existing ones, or remove colors that aren't needed.
+earth, #e8ffdc
+ender, #a2ffe4
+living, #ffd6ff
+metallic, #ffffff
+nether, #ffa4b8
+organic, #ffffdc
+precious, #ffffff
+quantum, #d46eff

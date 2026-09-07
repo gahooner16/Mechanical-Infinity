@@ -1,0 +1,22 @@
+// Compost colors for voidminers. You may add your own colors, change existing ones, or remove colors that aren't needed.
+amethystine, #d904ff
+aurantium, #ffd704
+azurine, #15ffff
+caerium, #ff
+citrinetine, #ffff30
+max_storage_upgrade_t1, #ff72b1
+max_storage_upgrade_t2, #50787c
+max_storage_upgrade_t3, #d3d087
+rosarium, #ff04ff
+rubetine, #ff0505
+solar_amethystine, #d904ff
+solar_aurantium, #ffd704
+solar_azurine, #15ffff
+solar_caerium, #ff
+solar_citrinetine, #ffff30
+solar_rosarium, #ff04ff
+solar_rubetine, #ff0505
+solar_verdium, #7ff07
+structure_builder, #7a3434
+ultimate_stellar_core, #a89ec9
+verdium, #7ff07

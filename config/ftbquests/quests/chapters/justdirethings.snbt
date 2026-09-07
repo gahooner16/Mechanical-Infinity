@@ -1,0 +1,1612 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "justdirethings"
+	group: "5D51628F116630FF"
+	id: "57182B34A62BA785"
+	images: [{
+		height: 2.0d
+		id: "43E3898099EB6905"
+		image: "justdirethings:textures/gui/overlay/decoy.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 0.0d
+		y: -8.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34A5908F2E7E7A0F"]
+			id: "05BBC260E25C0DA6"
+			tasks: [{
+				id: "4030C5BAA09591A2"
+				item: { count: 1, id: "justdirethings:upgrade_stepheight" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34A5908F2E7E7A0F"]
+			id: "4D9608C9E3615CA2"
+			tasks: [{
+				id: "619428C244ACCEEC"
+				item: { count: 1, id: "justdirethings:upgrade_jumpboost" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["201C537AAA003B5D"]
+			id: "0665D8F768C09677"
+			tasks: [{
+				id: "100DB8C91D1D4BEB"
+				item: { count: 1, id: "justdirethings:upgrade_negatefalldamage" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49FFC5D0557D86CC"]
+			id: "774FB4CC9B80211E"
+			tasks: [{
+				id: "6CCEC74D70729A59"
+				item: { count: 1, id: "justdirethings:upgrade_groundstomp" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4FB2A6888A869DEE"]
+			id: "77E4E37977FB3670"
+			tasks: [{
+				id: "20E52E2307AE9D0A"
+				item: { count: 1, id: "justdirethings:upgrade_lavaimmunity" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4FB2A6888A869DEE"]
+			id: "634021B936AF637C"
+			tasks: [{
+				id: "2BD182943730CB20"
+				item: { count: 1, id: "justdirethings:upgrade_flight" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4B97E792DBFA7D78"]
+			id: "195C5DC5799B3AC3"
+			tasks: [{
+				id: "27593C54F0A229CA"
+				item: { count: 1, id: "justdirethings:upgrade_extinguish" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4FB2A6888A869DEE"]
+			id: "763F4541A744178C"
+			tasks: [{
+				id: "6925C4F4FA3959CF"
+				item: { count: 1, id: "justdirethings:upgrade_time_protection" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4FB2A6888A869DEE"]
+			id: "15BDB224CDD7CAFA"
+			tasks: [{
+				id: "4D13F3CCF60761B8"
+				item: { count: 1, id: "justdirethings:upgrade_deathprotection" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["79AC425FB49EE74F"]
+			id: "2FA3885894E2CFD1"
+			tasks: [{
+				id: "3939205D1A7FEBD5"
+				item: { count: 1, id: "justdirethings:upgrade_elytra" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["51A5B6205DBD3B0B"]
+			id: "51FA279215199F8B"
+			tasks: [{
+				id: "46AA9D49EDF1DAC1"
+				item: { count: 1, id: "justdirethings:upgrade_invulnerability" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["45530AC96E238C0B"]
+			id: "4876BFE37443877A"
+			tasks: [{
+				id: "68F279E64B04E79D"
+				item: { count: 1, id: "justdirethings:upgrade_debuffremover" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["0556C94512CBF3DA"]
+			id: "58E4FF7C9B879CD9"
+			tasks: [{
+				id: "1B3A9B57AE7E028B"
+				item: { count: 1, id: "justdirethings:upgrade_stupefy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["59BA0CC2F3351023"]
+			id: "7871F082E5CD8A48"
+			tasks: [{
+				id: "28122C5B4B002520"
+				item: { count: 1, id: "justdirethings:upgrade_nightvision" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["59BA0CC2F3351023"]
+			id: "49F36F415F3AF1DB"
+			tasks: [{
+				id: "08011E38D50399B5"
+				item: { count: 1, id: "justdirethings:upgrade_waterbreathing" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4C677FE82EB191D5"]
+			id: "1267DC94C8A853F6"
+			tasks: [{
+				id: "689C746C7D6BD850"
+				item: { count: 1, id: "justdirethings:upgrade_mindfog" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["45530AC96E238C0B"]
+			id: "037CFB7AF1A12610"
+			tasks: [{
+				id: "758326691270AC29"
+				item: { count: 1, id: "justdirethings:upgrade_noai" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			id: "4C677FE82EB191D5"
+			size: 1.0d
+			tasks: [{
+				id: "19F64B5432EAEB29"
+				item: { count: 1, id: "justdirethings:ferricore_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4C677FE82EB191D5"]
+			id: "0556C94512CBF3DA"
+			tasks: [{
+				id: "566FBEA31693E7C0"
+				item: { count: 1, id: "justdirethings:blazegold_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0556C94512CBF3DA"]
+			id: "59BA0CC2F3351023"
+			tasks: [{
+				id: "5EEBEB0081E9ABF5"
+				item: { count: 1, id: "justdirethings:celestigem_helmet" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["59BA0CC2F3351023"]
+			id: "45530AC96E238C0B"
+			tasks: [{
+				id: "24B5208BE24CAE42"
+				item: { count: 1, id: "justdirethings:eclipsealloy_helmet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.5d
+		}
+		{
+			id: "51A5B6205DBD3B0B"
+			tasks: [{
+				id: "6D34ED3F61FDF36F"
+				item: { count: 1, id: "justdirethings:ferricore_chestplate" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["51A5B6205DBD3B0B"]
+			id: "4B97E792DBFA7D78"
+			tasks: [{
+				id: "6EE2790E2D40B83A"
+				item: { count: 1, id: "justdirethings:blazegold_chestplate" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4B97E792DBFA7D78"]
+			id: "79AC425FB49EE74F"
+			tasks: [{
+				id: "2EE0CFC966AD00EF"
+				item: { count: 1, id: "justdirethings:celestigem_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["79AC425FB49EE74F"]
+			id: "4FB2A6888A869DEE"
+			tasks: [{
+				id: "68EFBC36E24D875F"
+				item: { count: 1, id: "justdirethings:eclipsealloy_chestplate" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -9.0d
+		}
+		{
+			id: "34A5908F2E7E7A0F"
+			tasks: [{
+				id: "06482A4DE1AED26C"
+				item: { count: 1, id: "justdirethings:ferricore_boots" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["34A5908F2E7E7A0F"]
+			id: "49FFC5D0557D86CC"
+			tasks: [{
+				id: "0F4ADF644CC169CF"
+				item: { count: 1, id: "justdirethings:blazegold_boots" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["49FFC5D0557D86CC"]
+			id: "201C537AAA003B5D"
+			tasks: [{
+				id: "219966F5DA08E61A"
+				item: { count: 1, id: "justdirethings:celestigem_boots" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["201C537AAA003B5D"]
+			id: "0AFE0E766EDAA162"
+			tasks: [{
+				id: "3E9009A7C172207F"
+				item: { count: 1, id: "justdirethings:eclipsealloy_boots" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			id: "34B3A622E98A1129"
+			tasks: [{
+				id: "2DED3287D4468451"
+				item: { count: 1, id: "justdirethings:ferricore_leggings" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34B3A622E98A1129"]
+			id: "46E6253A6FBA9DDE"
+			tasks: [{
+				id: "14D292AE1ADEE9F2"
+				item: { count: 1, id: "justdirethings:blazegold_leggings" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["46E6253A6FBA9DDE"]
+			id: "69B93788BCBBAE94"
+			tasks: [{
+				id: "4A8162F96155DB95"
+				item: { count: 1, id: "justdirethings:celestigem_leggings" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["69B93788BCBBAE94"]
+			id: "351F70943AE663EB"
+			tasks: [{
+				id: "4594F9933B598E45"
+				item: { count: 1, id: "justdirethings:eclipsealloy_leggings" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["46E6253A6FBA9DDE"]
+			id: "63FB58F447902096"
+			tasks: [{
+				id: "79E729A475667DA0"
+				item: { count: 1, id: "justdirethings:upgrade_swimspeed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["69B93788BCBBAE94"]
+			id: "7578D95733B41D29"
+			tasks: [{
+				id: "2B74391CCF7E36F7"
+				item: { count: 1, id: "justdirethings:upgrade_decoy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["34B3A622E98A1129"]
+			id: "1917713D498CE67F"
+			tasks: [{
+				id: "55760B7C89CF5D45"
+				item: { count: 1, id: "justdirethings:upgrade_runspeed" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["34B3A622E98A1129"]
+			id: "6AC0F9C1907D6106"
+			tasks: [{
+				id: "1D5F01B3BE70E3E0"
+				item: { count: 1, id: "justdirethings:upgrade_walkspeed" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "298760FD6BEDCDC3"
+			size: 2.0d
+			tasks: [{
+				id: "029D4A254A0C2EED"
+				item: { components: { "patchouli:book": "justdirethings:justdirethingsbook" }, count: 1, id: "patchouli:guide_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.0d
+		}
+		{
+			id: "56D25A91F08C0C19"
+			tasks: [{
+				id: "4BAD20E1C36439BD"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			id: "62AE034E7BC6A9CB"
+			tasks: [{
+				id: "6562537971E5A9ED"
+				item: { count: 1, id: "justdirethings:bow_ferricore" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62AE034E7BC6A9CB"]
+			id: "0CA5C8800D303E52"
+			tasks: [{
+				id: "392A8AAE37DD391B"
+				item: { count: 1, id: "justdirethings:bow_blazegold" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0CA5C8800D303E52"]
+			id: "31568DD301E32E41"
+			tasks: [{
+				id: "39D3C91C6768AB32"
+				item: { count: 1, id: "justdirethings:bow_celestigem" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31568DD301E32E41"]
+			id: "15E403996C93B4F6"
+			tasks: [{
+				id: "10B4F5C65E998878"
+				item: { count: 1, id: "justdirethings:bow_eclipsealloy" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["62AE034E7BC6A9CB"]
+			id: "323631F666DD4894"
+			tasks: [{
+				id: "25E31E980F079396"
+				item: { count: 1, id: "justdirethings:upgrade_potionarrow" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CA5C8800D303E52"]
+			id: "211776689B1CB897"
+			tasks: [{
+				id: "7DD0E9570E51BB74"
+				item: { count: 1, id: "justdirethings:upgrade_splash" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["31568DD301E32E41"]
+			id: "7ED1390EE675AD69"
+			tasks: [{
+				id: "4197CB4008CD811B"
+				item: { count: 1, id: "justdirethings:upgrade_lingering" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["31568DD301E32E41"]
+			id: "6C8C068BBB6E5AB2"
+			tasks: [{
+				id: "39D209E727EF08D5"
+				item: { count: 1, id: "justdirethings:upgrade_homing" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15E403996C93B4F6"]
+			id: "3EB768649877C63C"
+			tasks: [{
+				id: "570D769704B70464"
+				item: { count: 1, id: "justdirethings:upgrade_phase" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56D25A91F08C0C19"]
+			id: "59AA9C7A221F958B"
+			tasks: [{
+				id: "2D6C861E531E941D"
+				item: { count: 1, id: "justdirethings:gooblock_tier2" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["59AA9C7A221F958B"]
+			id: "65E25D812FF888F2"
+			tasks: [{
+				id: "1529AC160635D292"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65E25D812FF888F2"]
+			id: "31EC98FDFBC8F85C"
+			tasks: [{
+				id: "5BC1F97D9D64BC62"
+				item: { count: 1, id: "justdirethings:gooblock_tier4" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "55D6EB6B0296FFAA"
+			tasks: [{
+				id: "48C786AAB40F031F"
+				item: { count: 1, id: "justdirethings:goosoil_tier1" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55D6EB6B0296FFAA"]
+			id: "1FC863383F4F893D"
+			tasks: [{
+				id: "42D4E2720ACEA832"
+				item: { count: 1, id: "justdirethings:goosoil_tier2" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FC863383F4F893D"]
+			id: "7949EA444CC9709C"
+			tasks: [{
+				id: "28D4953E9A94B90D"
+				item: { count: 1, id: "justdirethings:goosoil_tier3" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7949EA444CC9709C"]
+			id: "5DCCC3DA10E72E05"
+			tasks: [{
+				id: "5DA534D5AFCBC32E"
+				item: { count: 1, id: "justdirethings:goosoil_tier4" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "78F7D40162BD556F"
+			tasks: [{
+				id: "239544722D4203D5"
+				item: { count: 1, id: "justdirethings:ferricore_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78F7D40162BD556F"]
+			id: "01103ADC3ADDFFAA"
+			tasks: [{
+				id: "57484578278C97DD"
+				item: { count: 1, id: "justdirethings:blazegold_sword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01103ADC3ADDFFAA"]
+			id: "1004D9E8FC15FCF2"
+			tasks: [{
+				id: "3B64A276D8930BC2"
+				item: { count: 1, id: "justdirethings:celestigem_sword" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1004D9E8FC15FCF2"]
+			id: "350719AA0263B0E6"
+			tasks: [{
+				id: "75F3316C5EF2EA98"
+				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78F7D40162BD556F"]
+			id: "55E74B6CDA58A36A"
+			tasks: [{
+				id: "54BE16416398C83E"
+				item: { count: 1, id: "justdirethings:upgrade_mobscanner" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["01103ADC3ADDFFAA"]
+			id: "525E9A6E27381B4F"
+			tasks: [{
+				id: "27A336692F5CC52D"
+				item: { count: 1, id: "justdirethings:upgrade_cauterizewounds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01103ADC3ADDFFAA"]
+			id: "7A3163D789298C3D"
+			tasks: [{
+				id: "2C3347C4FCF77767"
+				item: { count: 1, id: "justdirethings:upgrade_smoker" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1004D9E8FC15FCF2"]
+			id: "3887E05957EAB77A"
+			tasks: [{
+				id: "4186AC1F523685F5"
+				item: { count: 1, id: "justdirethings:upgrade_dropteleport" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["350719AA0263B0E6"]
+			id: "3D4899355BD2982F"
+			tasks: [{
+				id: "0D29BC79AA3D4091"
+				item: { count: 1, id: "justdirethings:upgrade_glowing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "61AE3E29E360C877"
+			tasks: [{
+				id: "0197D710F2B76E23"
+				item: { count: 1, id: "justdirethings:ferricore_pickaxe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["61AE3E29E360C877"]
+			id: "78994B59177D4627"
+			tasks: [{
+				id: "42FF83DF6D7AA6C1"
+				item: { count: 1, id: "justdirethings:blazegold_pickaxe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["78994B59177D4627"]
+			id: "6E36764E80BA4E4F"
+			tasks: [{
+				id: "2B613637BF15075A"
+				item: { count: 1, id: "justdirethings:celestigem_pickaxe" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E36764E80BA4E4F"]
+			id: "03494AD6ACF5F9F8"
+			tasks: [{
+				id: "1B970C0B267934CE"
+				item: { count: 1, id: "justdirethings:eclipsealloy_pickaxe" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6E36764E80BA4E4F"]
+			id: "081EC8EF200DA24B"
+			tasks: [{
+				id: "1B988B152C52A34E"
+				item: { count: 1, id: "justdirethings:upgrade_dropteleport" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78994B59177D4627"]
+			id: "3B0D1AA8B840E408"
+			tasks: [{
+				id: "011975C0B0997FD4"
+				item: { count: 1, id: "justdirethings:upgrade_hammer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78994B59177D4627"]
+			id: "706DC5EA580B7675"
+			tasks: [{
+				id: "68E0BAC136EE6FE4"
+				item: { count: 1, id: "justdirethings:upgrade_smelter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03494AD6ACF5F9F8"]
+			id: "5B3E58AA0D077FD0"
+			tasks: [{
+				id: "6A0961CC342529C8"
+				item: { count: 1, id: "justdirethings:upgrade_orexray" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["61AE3E29E360C877"]
+			id: "2E0BD3E14365FC5C"
+			tasks: [{
+				id: "5DAD14CF3A4A4DBA"
+				item: { count: 1, id: "justdirethings:upgrade_oreminer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03494AD6ACF5F9F8"]
+			id: "3C26B61A9AC7625D"
+			tasks: [{
+				id: "44EAECA3001A73E5"
+				item: { count: 1, id: "justdirethings:upgrade_instabreak" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["61AE3E29E360C877"]
+			id: "77BCF34E5CE841E2"
+			tasks: [{
+				id: "55863D008AC1BF31"
+				item: { count: 1, id: "justdirethings:upgrade_orescanner" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "097E7FE0BE63A72E"
+			tasks: [{
+				id: "5BA02355A6FFD137"
+				item: { count: 1, id: "justdirethings:ferricore_shovel" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["097E7FE0BE63A72E"]
+			id: "26806EE701A43F81"
+			tasks: [{
+				id: "70BE7A53F282AF32"
+				item: { count: 1, id: "justdirethings:blazegold_shovel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["21E58F55F167E2C6"]
+			id: "5A8A47C24E40291C"
+			tasks: [{
+				id: "5F3C080338793086"
+				item: { count: 1, id: "justdirethings:eclipsealloy_shovel" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26806EE701A43F81"]
+			id: "21E58F55F167E2C6"
+			tasks: [{
+				id: "45B462802B0576B7"
+				item: { count: 1, id: "justdirethings:celestigem_shovel" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["26806EE701A43F81"]
+			id: "3875431A26E84AA4"
+			tasks: [{
+				id: "4D67A1D20076C65D"
+				item: { count: 1, id: "justdirethings:upgrade_smelter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["26806EE701A43F81"]
+			id: "2F8DF707BDB10F0F"
+			tasks: [{
+				id: "6C6F757B5C701241"
+				item: { count: 1, id: "justdirethings:upgrade_hammer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["097E7FE0BE63A72E"]
+			id: "72A67E1B4C91BF67"
+			tasks: [{
+				id: "3DEB7788F3980A58"
+				item: { count: 1, id: "justdirethings:upgrade_lawnmower" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["097E7FE0BE63A72E"]
+			id: "1E22EEB45F2C6596"
+			tasks: [{
+				id: "441B570A9CE5789F"
+				item: { count: 1, id: "justdirethings:upgrade_skysweeper" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A8A47C24E40291C"]
+			id: "4503A70F74D268F5"
+			tasks: [{
+				id: "02C5D02C9D862E73"
+				item: { count: 1, id: "justdirethings:upgrade_instabreak" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["21E58F55F167E2C6"]
+			id: "663FE37CCDB62F45"
+			tasks: [{
+				id: "6BF0E3DC2C2A7A32"
+				item: { count: 1, id: "justdirethings:upgrade_dropteleport" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "6080B5E02647A847"
+			tasks: [{
+				id: "1B0C54C0C866E87E"
+				item: { count: 1, id: "justdirethings:ferricore_axe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6080B5E02647A847"]
+			id: "54387DEFB1F0763E"
+			tasks: [{
+				id: "62D769D762FBF2DA"
+				item: { count: 1, id: "justdirethings:blazegold_axe" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54387DEFB1F0763E"]
+			id: "0BD2FC6FFFB9A0BC"
+			tasks: [{
+				id: "1D44A0959AB6E1B6"
+				item: { count: 1, id: "justdirethings:celestigem_axe" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0BD2FC6FFFB9A0BC"]
+			id: "3E4BC667408FA7CD"
+			tasks: [{
+				id: "3F2DC9331632ACF1"
+				item: { count: 1, id: "justdirethings:eclipsealloy_axe" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6080B5E02647A847"]
+			id: "21042E3FFF065DC2"
+			tasks: [{
+				id: "0452C359ADBBB540"
+				item: { count: 1, id: "justdirethings:upgrade_leafbreaker" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6080B5E02647A847"]
+			id: "69E8E0416B65F480"
+			tasks: [{
+				id: "40024A5E30E47B8E"
+				item: { count: 1, id: "justdirethings:upgrade_treefeller" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54387DEFB1F0763E"]
+			id: "43B9BDD538E9E68C"
+			tasks: [{
+				id: "56E5AA3FF7616B0E"
+				item: { count: 1, id: "justdirethings:upgrade_smelter" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BD2FC6FFFB9A0BC"]
+			id: "547945366C59419E"
+			tasks: [{
+				id: "3ACDE366702321A4"
+				item: { count: 1, id: "justdirethings:upgrade_dropteleport" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3E4BC667408FA7CD"]
+			id: "7EC4BE2A0B081290"
+			tasks: [{
+				id: "31C08FAE889E42EC"
+				item: { count: 1, id: "justdirethings:upgrade_instabreak" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "1F8E103D5F557118"
+			tasks: [{
+				id: "1E7AAB7F0FC054A7"
+				item: { count: 1, id: "justdirethings:ferricore_hoe" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F8E103D5F557118"]
+			id: "388231D11DBDBDD7"
+			tasks: [{
+				id: "7869974772BEB9E5"
+				item: { count: 1, id: "justdirethings:blazegold_hoe" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["388231D11DBDBDD7"]
+			id: "25BC2ED8AD8B3176"
+			tasks: [{
+				id: "446E2D82D262CC84"
+				item: { count: 1, id: "justdirethings:celestigem_hoe" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25BC2ED8AD8B3176"]
+			id: "17E8614BCE133540"
+			tasks: [{
+				id: "392E8D21BDA58C3A"
+				item: { count: 1, id: "justdirethings:eclipsealloy_hoe" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"21E58F55F167E2C6"
+				"0BD2FC6FFFB9A0BC"
+				"6E36764E80BA4E4F"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5811CC23794B18BC"
+			optional: true
+			size: 1.0d
+			tasks: [{
+				id: "495C19F2256AD211"
+				item: { count: 1, id: "justdirethings:celestigem_paxel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"03494AD6ACF5F9F8"
+				"5A8A47C24E40291C"
+				"3E4BC667408FA7CD"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "683F84AC1E2772C4"
+			optional: true
+			size: 2.0d
+			tasks: [{
+				id: "2F391AA7B9B7BCCE"
+				item: { count: 1, id: "justdirethings:eclipsealloy_paxel" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["25BC2ED8AD8B3176"]
+			id: "4771A93B43F83B23"
+			tasks: [{
+				id: "0D83D0AA52974EE2"
+				item: { count: 1, id: "justdirethings:upgrade_dropteleport" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "733A74E93261B2F0"
+			optional: true
+			tasks: [{
+				id: "5B662BF9D813D958"
+				item: { count: 1, id: "justdirethings:upgrade_treefeller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "20FD93D44948B75F"
+			optional: true
+			tasks: [{
+				id: "6CAABE2DEBB81876"
+				item: { count: 1, id: "justdirethings:upgrade_dropteleport" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "2E74A46FB857636A"
+			optional: true
+			tasks: [{
+				id: "233EBB8CD6E8229B"
+				item: { count: 1, id: "justdirethings:upgrade_hammer" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["683F84AC1E2772C4"]
+			id: "429D35CFAA164143"
+			optional: true
+			tasks: [{
+				id: "4B7E01BD28189D20"
+				item: { count: 1, id: "justdirethings:upgrade_orexray" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "71B963131289044B"
+			optional: true
+			tasks: [{
+				id: "33B1CC69B74ACD41"
+				item: { count: 1, id: "justdirethings:upgrade_smelter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["683F84AC1E2772C4"]
+			id: "6404217BE317F494"
+			optional: true
+			tasks: [{
+				id: "2F9F3F6008B93742"
+				item: { count: 1, id: "justdirethings:upgrade_instabreak" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "360F1CE0E9485721"
+			optional: true
+			tasks: [{
+				id: "71A0C7021C6E3976"
+				item: { count: 1, id: "justdirethings:upgrade_leafbreaker" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "78593D33575C58CF"
+			optional: true
+			tasks: [{
+				id: "04220B62A0CA3963"
+				item: { count: 1, id: "justdirethings:upgrade_skysweeper" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "442B5C36794CE0E0"
+			optional: true
+			tasks: [{
+				id: "5AF2F9FC536E5D6B"
+				item: { count: 1, id: "justdirethings:upgrade_lawnmower" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "18D2D1879CC181FF"
+			optional: true
+			tasks: [{
+				id: "1D2454290549E36C"
+				item: { count: 1, id: "justdirethings:upgrade_oreminer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5811CC23794B18BC"]
+			id: "441FB1FB02E04424"
+			optional: true
+			tasks: [{
+				id: "1B6163DFDFE753B5"
+				item: { count: 1, id: "justdirethings:upgrade_orescanner" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			id: "5E117693D4ABBE05"
+			tasks: [{
+				id: "4CEC2D822F96448A"
+				item: { count: 1, id: "justdirethings:itemcollector" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "4D8C59BDA416A437"
+			tasks: [{
+				id: "3B001E47DDC4454F"
+				item: { count: 1, id: "justdirethings:blockbreakert1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			id: "23EA6FF5B39AB1F0"
+			tasks: [{
+				id: "602700BFE08763E2"
+				item: { count: 1, id: "justdirethings:blockbreakert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "2D3128BB7337E315"
+			tasks: [{
+				id: "55F42E30CCA55E95"
+				item: { count: 1, id: "justdirethings:blockplacert1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			id: "6844AF2103D1B724"
+			tasks: [{
+				id: "477DA27BE8110C8B"
+				item: { count: 1, id: "justdirethings:blockplacert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "65AAFA49DA65429D"
+			tasks: [{
+				id: "636F3473A17FB7FC"
+				item: { count: 1, id: "justdirethings:clickert1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			id: "2B3EA905E7124214"
+			tasks: [{
+				id: "7B74F70F25B3D812"
+				item: { count: 1, id: "justdirethings:clickert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "40DEB80D9444BA35"
+			tasks: [{
+				id: "3A8B6F6CD3DBA89A"
+				item: { count: 1, id: "justdirethings:sensort1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			id: "5A8A26EE1C0053BF"
+			tasks: [{
+				id: "56F158E62EEAF708"
+				item: { count: 1, id: "justdirethings:sensort2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			id: "03A220BFE8E77377"
+			tasks: [{
+				id: "49319E8E81DBD65C"
+				item: { count: 1, id: "justdirethings:droppert1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			id: "598544C57DDA4AA8"
+			tasks: [{
+				id: "591BE3FE3AC73532"
+				item: { count: 1, id: "justdirethings:droppert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			id: "4B6B5A62ABDF24C9"
+			tasks: [{
+				id: "3783524EC74D7DDE"
+				item: { count: 1, id: "justdirethings:blockswappert1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			id: "251AC6C736F589D0"
+			tasks: [{
+				id: "2F8BC39A93723F57"
+				item: { count: 1, id: "justdirethings:blockswappert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			id: "7B20E055582E8DB5"
+			tasks: [{
+				id: "2A5A88A4FA9914F6"
+				item: { count: 1, id: "justdirethings:playeraccessor" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "010A8754BD9D23E9"
+			tasks: [{
+				id: "3B8280B6EFA527B8"
+				item: { count: 1, id: "justdirethings:energytransmitter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "35E67C185EF72B2E"
+			tasks: [{
+				id: "498FA67206CB42D9"
+				item: { count: 1, id: "justdirethings:generatort1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "4D315FA10D9CC0FC"
+			tasks: [{
+				id: "53D9B7A586DA19B1"
+				item: { count: 1, id: "justdirethings:creaturecatcher" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "64A20DF9BC03C1F4"
+			tasks: [{
+				id: "54034C73DBFD79D2"
+				item: { count: 1, id: "justdirethings:experienceholder" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "6F785FAB9724F4CC"
+			tasks: [{
+				id: "12C422A2D9796358"
+				item: { count: 1, id: "justdirethings:fluidcollectort1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			id: "54FD128CE7F00314"
+			tasks: [{
+				id: "4AE128238F44807A"
+				item: { count: 1, id: "justdirethings:fluidcollectort2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			id: "0552D3B85AEEEDCF"
+			tasks: [{
+				id: "5001AD9A1C9D569A"
+				item: { count: 1, id: "justdirethings:fluidplacert1" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			id: "4A339CDF1401A211"
+			tasks: [{
+				id: "604F37A10AEF6055"
+				item: { count: 1, id: "justdirethings:fluidplacert2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			id: "408A5B7AA6401DE6"
+			tasks: [{
+				id: "46B70A0385385E9F"
+				item: { count: 1, id: "justdirethings:inventory_holder" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "6FAC0471AD271AE4"
+			tasks: [{
+				id: "7E094591849BFBA4"
+				item: { count: 1, id: "justdirethings:generatorfluidt1" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			id: "1885518A8C510ED8"
+			tasks: [{
+				id: "6DDFE87642888A51"
+				item: { count: 1, id: "justdirethings:blazejet_wand" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1885518A8C510ED8"]
+			id: "14DEE048C82313ED"
+			tasks: [{
+				id: "700E38F4A23188FA"
+				item: { count: 1, id: "justdirethings:voidshift_wand" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14DEE048C82313ED"]
+			id: "55C5784BE52A80F3"
+			tasks: [{
+				id: "099D57882963FC72"
+				item: { count: 1, id: "justdirethings:eclipsegate_wand" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "2CA50415589F2249"
+			tasks: [{
+				id: "0B8D5E38BC12F196"
+				item: { count: 1, id: "justdirethings:time_wand" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "4D245D90D9128C68"
+			tasks: [{
+				id: "182DC295FB708DBB"
+				item: { count: 1, id: "justdirethings:polymorphic_wand" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D245D90D9128C68"]
+			id: "1CE1C78064A3858C"
+			tasks: [{
+				id: "0ABB8A91AA143159"
+				item: { count: 1, id: "justdirethings:polymorphic_wand_v2" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "523CAAD37393900B"
+			tasks: [{
+				id: "422BAE9802A41065"
+				item: { count: 1, id: "justdirethings:ferricore_wrench" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "52B199430782107A"
+			tasks: [{
+				id: "1268C93AF48374FF"
+				item: { count: 1, id: "justdirethings:machinesettingscopier" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "40C626BC0FBCBEFC"
+			tasks: [{
+				id: "7F5A41AA0261DA21"
+				item: { count: 1, id: "justdirethings:portalgun" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["40C626BC0FBCBEFC"]
+			id: "1B549FDF53997C16"
+			tasks: [{
+				id: "3E1876694E825E4B"
+				item: { count: 1, id: "justdirethings:portalgun_v2" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+	]
+}

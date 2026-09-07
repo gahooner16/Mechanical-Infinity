@@ -1,0 +1,2 @@
+#Enable rebalance for extended tier items. When enabled, mixins will modify extended tier items to rebalance them.
+enableRebalance = true

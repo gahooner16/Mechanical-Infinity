@@ -1,0 +1,570 @@
+{
+	autofocus_id: "7A90741510A28F4B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "voidminer"
+	group: "6329AF58520400C4"
+	id: "518584706242A148"
+	images: [
+		{
+			height: 1.0d
+			id: "5AAD302F116D3696"
+			image: "voidminers:item/rubetine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 1.500000000000007d
+		}
+		{
+			height: 1.0d
+			id: "13275D5167C5F136"
+			image: "voidminers:item/aurantium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 2.000000000000007d
+		}
+		{
+			height: 1.0d
+			id: "6BEB7CE41D043C08"
+			image: "voidminers:item/citrinetine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: 3.000000000000007d
+		}
+		{
+			height: 1.0d
+			id: "36118360EB1789D4"
+			image: "voidminers:item/verdium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.5d
+			y: 4.000000000000007d
+		}
+		{
+			height: 1.0d
+			id: "74ECD6F1563E378E"
+			image: "voidminers:item/azurine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 4.000000000000007d
+		}
+		{
+			height: 1.0d
+			id: "16871A22253EB739"
+			image: "voidminers:item/caerium"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 3.000000000000007d
+		}
+		{
+			height: 1.0d
+			id: "2CF01670296D3630"
+			image: "voidminers:item/amethystine"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.0d
+			y: 2.000000000000007d
+		}
+		{
+			height: 1.0d
+			id: "6EFE1FF29348535B"
+			image: "voidminers:item/rosarium"
+			order: 50000
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.728214285714273d
+			y: 1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["613DA71A509DC39C"]
+			id: "6A5C0FD659ACF33A"
+			tasks: [
+				{
+					id: "6FB32A54FCED43C7"
+					item: { count: 1, id: "voidminers:rubetine_miner" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "338D5EA13ADBF6AF"
+					item: { count: 1, id: "voidminers:rubetine_frame" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "63A58033E0D136C1"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5212A145DEF73ACA"]
+			id: "613DA71A509DC39C"
+			tasks: [{
+				count: 100L
+				id: "585BB4B5F94263F8"
+				item: { count: 1, id: "voidminers:rubetine" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6A5C0FD659ACF33A"]
+			id: "4447B5220839E9E6"
+			tasks: [
+				{
+					id: "6EE67B1859CD5BEB"
+					item: { count: 1, id: "voidminers:aurantium_miner" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "42C76A6F2E92DDB1"
+					item: { count: 1, id: "voidminers:aurantium_frame" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "4DEC8094A116BD54"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "30CFF633DBC23ABD"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4447B5220839E9E6"]
+			id: "192B8110318C3955"
+			tasks: [
+				{
+					id: "4B50E9FC84F72D9E"
+					item: { count: 1, id: "voidminers:citrinetine_miner" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "76FF348890B577AC"
+					item: { count: 1, id: "voidminers:citrinetine_frame" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "014A45D765427D68"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "02BC48B252047B2D"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["192B8110318C3955"]
+			id: "6B9BB75EDF5BD254"
+			tasks: [
+				{
+					id: "5153AD8C1EC4594A"
+					item: { count: 1, id: "voidminers:verdium_miner" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "5B1ADCE78AFE009B"
+					item: { count: 1, id: "voidminers:verdium_frame" }
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "07EBE545873D7E6B"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3059583A9571C989"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6B9BB75EDF5BD254"]
+			id: "19E0BEAB98B9F41E"
+			tasks: [
+				{
+					id: "00DEBDDAFBAA99A2"
+					item: { count: 1, id: "voidminers:azurine_miner" }
+					type: "item"
+				}
+				{
+					count: 48L
+					id: "0E58EAD37978D30F"
+					item: { count: 1, id: "voidminers:azurine_frame" }
+					type: "item"
+				}
+				{
+					count: 37L
+					id: "42C56536ADE9A9B8"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0EB33FE413FEBDF1"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19E0BEAB98B9F41E"]
+			id: "42A2799543E39385"
+			tasks: [
+				{
+					id: "5884485A74DBCDA8"
+					item: { count: 1, id: "voidminers:caerium_miner" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "60B8FFBC1D6798D8"
+					item: { count: 1, id: "voidminers:caerium_frame" }
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "15FA408B8BA96258"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "472186B9B5D0C2E8"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["42A2799543E39385"]
+			id: "304EEA2DC9E23142"
+			tasks: [
+				{
+					id: "5EE4C93007F76231"
+					item: { count: 1, id: "voidminers:amethystine_miner" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "3241DB1A9A0ED049"
+					item: { count: 1, id: "voidminers:amethystine_frame" }
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "133856B8F508F64F"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "7FA7133044EBF2FB"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["304EEA2DC9E23142"]
+			id: "2AA3081EC2F565CC"
+			shape: "circle"
+			size: 1.5d
+			tasks: [
+				{
+					id: "720D87FEADDD0ADC"
+					item: { count: 1, id: "voidminers:rosarium_miner" }
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "662D38DD236D188B"
+					item: { count: 1, id: "voidminers:rosarium_frame" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "4B58B041211B2924"
+					item: { count: 1, id: "voidminers:glass_panel" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "654982B8F0E74FEF"
+					item: { count: 1, id: "voidminers:null_modifier" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4447B5220839E9E6"]
+			hide_dependency_lines: true
+			id: "7A53D218AE346717"
+			min_width: 300
+			tasks: [{
+				id: "323BFA1B7512E1A5"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "6FF80530D4F0FD81"
+			tasks: [{
+				count: 100L
+				id: "6C2EBFE41C98F876"
+				item: { count: 1, id: "voidminers:solar_rubetine" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6FF80530D4F0FD81"]
+			id: "6E34E7248F1B7E27"
+			tasks: [{
+				id: "6FDC24F69E3D7AEF"
+				item: { count: 1, id: "voidminers:solar_rubetine_panel" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E34E7248F1B7E27"]
+			id: "00BFF2A289A45C93"
+			tasks: [{
+				id: "1E86278D27134870"
+				item: { count: 1, id: "voidminers:solar_aurantium_panel" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00BFF2A289A45C93"]
+			id: "7A90741510A28F4B"
+			tasks: [{
+				id: "20D8B997BF9D9041"
+				item: { count: 1, id: "voidminers:solar_citrinetine_panel" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7A90741510A28F4B"]
+			id: "1C9447B840223651"
+			tasks: [{
+				id: "0AE032163E0FD94E"
+				item: { count: 1, id: "voidminers:solar_verdium_panel" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C9447B840223651"]
+			id: "060875F3B7C81315"
+			tasks: [{
+				id: "3BB68D62EE5E3132"
+				item: { count: 1, id: "voidminers:solar_azurine_panel" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["060875F3B7C81315"]
+			id: "39D243515A8CCB04"
+			tasks: [{
+				id: "0530D322B7A44275"
+				item: { count: 1, id: "voidminers:solar_caerium_panel" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["39D243515A8CCB04"]
+			id: "3B023D3A72B6DB76"
+			tasks: [{
+				id: "2842BE67F487178F"
+				item: { count: 1, id: "voidminers:solar_amethystine_panel" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B023D3A72B6DB76"]
+			id: "224DA46DAC47E550"
+			size: 1.5d
+			tasks: [{
+				id: "55BFB93C686F003A"
+				item: { count: 1, id: "voidminers:solar_rosarium_panel" }
+				type: "item"
+			}]
+			x: -14.25d
+			y: -3.0d
+		}
+		{
+			dependencies: ["224DA46DAC47E550"]
+			id: "1F7ACEEDD4FE9EBA"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "7B27BC435DE582A4"
+				item: { count: 1, id: "voidminers:solar_ultimate_panel" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AA3081EC2F565CC"]
+			id: "1680C380DBB6EC24"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "505C8747C70595C6"
+				item: { count: 1, id: "voidminers:ultimate_miner" }
+				type: "item"
+			}]
+			x: -5.740119047619061d
+			y: -2.999999999999993d
+		}
+		{
+			dependencies: ["7A53D218AE346717"]
+			id: "0D2BC09A7E0549CE"
+			tasks: [{
+				id: "6CC354F50C494564"
+				item: { count: 1, id: "voidminers:rubetine_energy_modifier" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A53D218AE346717"]
+			id: "2A16003D6E868DAC"
+			tasks: [{
+				id: "1A27CC18FA14B38A"
+				item: { count: 1, id: "voidminers:rubetine_speed_modifier" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7A53D218AE346717"]
+			id: "038A172F647EEFD6"
+			tasks: [{
+				id: "2F3D5B509DEF01A1"
+				item: { count: 1, id: "voidminers:rubetine_item_modifier" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00BFF2A289A45C93"]
+			hide_dependency_lines: true
+			id: "457A6496FA02E39E"
+			tasks: [{
+				id: "2ED7E18139CD4F37"
+				item: { count: 1, id: "voidminers:solar_rubetine_efficiency_modifier" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00BFF2A289A45C93"]
+			hide_dependency_lines: true
+			id: "399AB99920896FE3"
+			tasks: [{
+				id: "5749165EB005F6C0"
+				item: { count: 1, id: "voidminers:solar_rubetine_weather_modifier" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			id: "1F982338A24B7AE1"
+			tasks: [{
+				id: "7C2A13622270A2FA"
+				item: { count: 1, id: "voidminers:max_storage_upgrade_t1" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F982338A24B7AE1"]
+			id: "3A879FC0E6219D44"
+			tasks: [{
+				id: "66E29FCBD0CA2B2B"
+				item: { count: 1, id: "voidminers:max_storage_upgrade_t2" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3A879FC0E6219D44"]
+			id: "45FAB9CD806A7F4D"
+			tasks: [{
+				id: "72044A22B27245E3"
+				item: { count: 1, id: "voidminers:max_storage_upgrade_t3" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+	]
+}

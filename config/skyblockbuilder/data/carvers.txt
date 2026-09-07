@@ -1,0 +1,7 @@
+ars_elemental:vexing_cave_carver
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+minecraft:nether_cave
+twilightforest:highland_caves
+twilightforest:tf_caves

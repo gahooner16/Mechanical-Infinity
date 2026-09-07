@@ -1,0 +1,34 @@
+{
+  "values": {
+    "justdirethings:refined_t4_fluid_source": {
+      "consumption": 0.25,
+      "speed": 1.5,
+      "temperature": 2000
+    },
+    "justdirethings:refined_t3_fluid_source": {
+      "consumption": 0.4,
+      "speed": 1.2,
+      "temperature": 1000
+    },
+    "justdirethings:refined_t2_fluid_source": {
+      "consumption": 0.5,
+      "speed": 1.0,
+      "temperature": 1000
+    },
+    "oritech:still_fuel": {
+      "consumption": 0.25,
+      "speed": 1.5,
+      "temperature": 2000
+    },
+    "oritech:still_diesel": {
+      "consumption": 0.4,
+      "speed": 1.2,
+      "temperature": 1000
+    },
+    "minecraft:lava": {
+      "consumption": 1.0,
+      "speed": 0.5,
+      "temperature": 1500
+    }
+  }
+}

@@ -1,0 +1,26 @@
+// Compost colors for relics. You may add your own colors, change existing ones, or remove colors that aren't needed.
+chef_hat, #fce6dd
+chorus_staff, #936e9a
+clot_of_time, #361451
+cooked_meatball, #7d3222
+cut_glass_boot, #c9d7ff
+experience_disperser, #6b6f7c
+ghostly_mantle, #bbc8ed
+glitchy_mantle, #2f3225
+golden_tooth, #ffd639
+hunting_belt, #4b896f
+jellyfish_necklace, #16b2f8
+kinetic_belt, #a296e1
+leafy_mantle, #348011
+midnight_mantle, #285497
+pet_bone, #ffe080
+piglin_mask, #5f3d32
+raw_meatball, #ff483a
+reflective_necklace, #5878e8
+relic_experience_bottle, #fffc44
+rider_flute, #fa8c5f
+ring_of_the_seven_deadly_sins, #66282d
+roller_skate, #aa786f
+shield_of_retaliation, #7f362f
+sphere_of_self_sacrifice, #330c1b
+springy_boot, #8daa2a

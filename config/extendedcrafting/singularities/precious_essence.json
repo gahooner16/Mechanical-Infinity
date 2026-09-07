@@ -1,0 +1,10 @@
+{
+  "name": "Precious Essence",
+  "colors": [
+    "75614D",
+    "BFAD9C"
+  ],
+  "ingredient": {
+    "item": "kubejs:precious_essence"
+  }
+}

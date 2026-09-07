@@ -1,0 +1,15 @@
+[extractinator]
+	#Ticks between automatic extraction attempts.
+	# Default: 8
+	# Range: 1 ~ 1200
+	extractTicks = 8
+	#Multiplies generated loot counts.
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	lootMultiplier = 1.0
+	#Uses before the machine breaks. Use -1 for unlimited durability.
+	# Default: -1
+	# Range: > -1
+	extractinatorDurability = -1
+	#Suppress block breaking sounds while extracting.
+	silent = false

@@ -1,0 +1,13 @@
+{
+  "id": "pulverizer_energy",
+  "controllerIds": "mm:pulverizer",
+  "name": "Pulverizer Energy",
+  "type": "mm:energy",
+  "config": {
+    "capacity": 100000,
+    "maxReceive": 2000,
+    "maxExtract": 2000
+  },
+  "inputModel": "mm:block/machines/pulverizer_energy_input",
+  "outputModel": "mm:block/machines/pulverizer_energy_output"
+}
