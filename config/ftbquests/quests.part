@@ -1,0 +1,7 @@
+
+    {
+      input: { item: 'alltheores:nickel_ore' },
+      matter: [
+        { type: 'replication:metallic', amount: 24 }
+      ]
+    },

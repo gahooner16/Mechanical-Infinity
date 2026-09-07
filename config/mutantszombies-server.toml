@@ -1,0 +1,20 @@
+#If true, Blister Zombies will spawn naturally | default: true
+blisterZombiesSpawnNaturally = true
+#If true, Crawlers will spawn naturally | default: true
+crawlersSpawnNaturally = true
+#If true, Spitter Zombies will spawn naturally | default: true
+spitterZombiesSpawnNaturally = true
+#If true, Zombie Brutes will spawn naturally | default: true
+zombieBrutesSpawnNaturally = true
+#If true, Split Head Zombies will spawn naturally | default: true
+splitHeadZombieSpawnNaturally = true
+#If true, Mutant Brutes will spawn naturally | default: true
+mutantBrutesSpawnNaturally = true
+#If true, Rotten Mutants will spawn naturally | default: true
+rottenMutantSpawnNaturally = true
+#If true, Spitters will break logs and leaves in their path | default: false
+spittersBreakLogsAndLeavesAroundThem = false
+#If true, Zombie Brutes will break logs and leaves in their path | default: false
+zombieBrutesBreakLogsAndLeavesAroundThem = false
+#If true, Mutant Brutes will break logs and leaves in their path | default: false
+mutantBrutesBreakLogsAndLeavesAroundThem = false

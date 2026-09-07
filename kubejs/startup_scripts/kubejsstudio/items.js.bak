@@ -1,0 +1,4 @@
+// kubejsstudio registry additions; re-apply merges by id
+StartupEvents.registry('item', event => {
+    event.create('kubejs:canister_template', 'smithing_template').displayName('Canister template').texture('bhc:item/canister').parentModel('bhc:item/canister').maxStackSize(1)
+})

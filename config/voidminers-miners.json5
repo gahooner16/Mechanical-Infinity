@@ -1,0 +1,209 @@
+{
+  "ALLOW_NO_ENERGY_MINERS": false,
+  "ALLOW_TICK_ACCELERATION": true,
+  "UPGRADE_T1_SLOTS": 3,
+  "UPGRADE_T2_SLOTS": 9,
+  "UPGRADE_T3_SLOTS": 27,
+  "MINERS_FILL_ALL_SLOTS": false,
+  "MINERS_AUTO_EXPORT_INSTEAD_OF_FILLING_THEIR_OWN_INVENTORY": false,
+  "MINER_CONFIGS": {
+    "rubetine": {
+      "energyStorage": 10000000,
+      "duration": 1000,
+      "energyConsumptionPerTick": 300,
+      "modifiers": {
+        "energy": {
+          "energy": 0.85,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.5,
+          "speed": 1.0,
+          "item": 1.5
+        },
+        "speed": {
+          "energy": 1.1,
+          "speed": 1.1,
+          "item": 1.0
+        }
+      }
+    },
+    "rosarium": {
+      "energyStorage": 1000000000,
+      "duration": 300,
+      "energyConsumptionPerTick": 650,
+      "modifiers": {
+        "energy": {
+          "energy": 0.71,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.85,
+          "speed": 1.0,
+          "item": 2.2
+        },
+        "speed": {
+          "energy": 1.24,
+          "speed": 1.24,
+          "item": 1.0
+        }
+      }
+    },
+    "verdium": {
+      "energyStorage": 100000000,
+      "duration": 700,
+      "energyConsumptionPerTick": 450,
+      "modifiers": {
+        "energy": {
+          "energy": 0.79,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.65,
+          "speed": 1.0,
+          "item": 1.8
+        },
+        "speed": {
+          "energy": 1.16,
+          "speed": 1.16,
+          "item": 1.0
+        }
+      }
+    },
+    "citrinetine": {
+      "energyStorage": 50000000,
+      "duration": 800,
+      "energyConsumptionPerTick": 400,
+      "modifiers": {
+        "energy": {
+          "energy": 0.81,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.6,
+          "speed": 1.0,
+          "item": 1.7
+        },
+        "speed": {
+          "energy": 1.14,
+          "speed": 1.14,
+          "item": 1.0
+        }
+      }
+    },
+    "ultimate": {
+      "energyStorage": 2147483647,
+      "duration": 200,
+      "energyConsumptionPerTick": 700,
+      "modifiers": {
+        "energy": {
+          "energy": 0.65,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 2.0,
+          "speed": 1.0,
+          "item": 2.5
+        },
+        "speed": {
+          "energy": 1.3,
+          "speed": 1.3,
+          "item": 1.0
+        }
+      }
+    },
+    "azurine": {
+      "energyStorage": 250000000,
+      "duration": 600,
+      "energyConsumptionPerTick": 500,
+      "modifiers": {
+        "energy": {
+          "energy": 0.77,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.7,
+          "speed": 1.0,
+          "item": 1.9
+        },
+        "speed": {
+          "energy": 1.18,
+          "speed": 1.18,
+          "item": 1.0
+        }
+      }
+    },
+    "amethystine": {
+      "energyStorage": 750000000,
+      "duration": 400,
+      "energyConsumptionPerTick": 600,
+      "modifiers": {
+        "energy": {
+          "energy": 0.73,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.8,
+          "speed": 1.0,
+          "item": 2.1
+        },
+        "speed": {
+          "energy": 1.22,
+          "speed": 1.22,
+          "item": 1.0
+        }
+      }
+    },
+    "aurantium": {
+      "energyStorage": 25000000,
+      "duration": 900,
+      "energyConsumptionPerTick": 350,
+      "modifiers": {
+        "energy": {
+          "energy": 0.83,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.55,
+          "speed": 1.0,
+          "item": 1.6
+        },
+        "speed": {
+          "energy": 1.12,
+          "speed": 1.12,
+          "item": 1.0
+        }
+      }
+    },
+    "caerium": {
+      "energyStorage": 500000000,
+      "duration": 500,
+      "energyConsumptionPerTick": 550,
+      "modifiers": {
+        "energy": {
+          "energy": 0.75,
+          "speed": 1.0,
+          "item": 1.0
+        },
+        "item": {
+          "energy": 1.75,
+          "speed": 1.0,
+          "item": 2.0
+        },
+        "speed": {
+          "energy": 1.2,
+          "speed": 1.2,
+          "item": 1.0
+        }
+      }
+    }
+  }
+}

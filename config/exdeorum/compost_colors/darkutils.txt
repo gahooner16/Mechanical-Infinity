@@ -1,0 +1,10 @@
+// Compost colors for darkutils. You may add your own colors, change existing ones, or remove colors that aren't needed.
+charm_gluttony, #ffffff
+charm_pride, #ffffff
+charm_sloth, #ffca86
+rune_builder, #afb2b6
+rune_galactic, #b4acb9
+rune_illager, #b1aebb
+rune_nyctography, #b9b2be
+rune_pigpen, #bcb1bb
+rune_runelic, #b9acb4

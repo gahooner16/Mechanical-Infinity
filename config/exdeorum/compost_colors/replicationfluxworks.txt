@@ -1,0 +1,7 @@
+// Compost colors for replicationfluxworks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+capacitor_expansion_matrix, #7a9673
+flux_acceleration_module, #54786e
+flux_efficiency_module, #578480
+matter_amplification_module, #618a76
+matter_catalyst, #25222d
+quantum_stability_core, #659882

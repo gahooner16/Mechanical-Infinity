@@ -1,0 +1,11 @@
+{
+  "type": "voidminers:miner",
+  "item": {
+    "item": "kubejs:organic_essence"
+  },
+  "dimension": "minecraft:overworld",
+  "minTier": 1,
+  "weight": 1.0,
+  "count": 1,
+  "allowHigherTiers": true
+}

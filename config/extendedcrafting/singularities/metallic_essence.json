@@ -1,0 +1,10 @@
+{
+  "name": "Metallic Essence",
+  "colors": [
+    "083B2D",
+    "061C16"
+  ],
+  "ingredient": {
+    "item": "kubejs:metallic_essence"
+  }
+}

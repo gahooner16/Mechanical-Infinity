@@ -1,0 +1,13 @@
+{
+  "id": "pulverizer_item",
+  "controllerIds": "mm:pulverizer",
+  "name": "Pulverizer Item",
+  "type": "mm:item",
+  "config": {
+    "rows": 1,
+    "columns": 3,
+    "slotCapacity": 64
+  },
+  "inputModel": "mm:block/machines/pulverizer_item_input",
+  "outputModel": "mm:block/machines/pulverizer_item_output"
+}

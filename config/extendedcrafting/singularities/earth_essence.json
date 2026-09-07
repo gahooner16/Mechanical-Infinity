@@ -1,0 +1,10 @@
+{
+  "name": "Earth Essence",
+  "colors": [
+    "154D15",
+    "2DA42D"
+  ],
+  "ingredient": {
+    "item": "kubejs:earth_essence"
+  }
+}

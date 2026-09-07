@@ -1,0 +1,30 @@
+#Show the jack button on recipes, in whichever recipe viewer you use.
+#
+#Turn this off if you would rather pull only with the keybinds. The rest of
+#the mod — the G keys, autocrafting, the hover tooltip — is unaffected.
+#
+#Note the button already hides itself when there is nothing to pull from,
+#i.e. when you open a recipe with only your own inventory behind it.
+showRecipeButton = true
+#EMI and REI only. Horizontal nudge for the recipe button, in GUI pixels.
+#Positive moves it right. Zero is the default spot: its own column beside
+#the recipe, vertically centred.
+#
+#JEI is not affected: it decides where its own recipe buttons go.
+# Default: 0
+# Range: -128 ~ 128
+buttonOffsetX = 0
+#EMI and REI only. Vertical nudge for the recipe button, in GUI pixels.
+#Positive moves it down.
+# Default: 0
+# Range: -128 ~ 128
+buttonOffsetY = 0
+#EMI and REI only. Opt-in: allow Ctrl + arrow keys to reposition the recipe
+#button while a recipe screen is open (Ctrl+Home resets it). Each nudge is
+#saved to buttonOffsetX/Y above, so you can switch this back off once the
+#position looks right.
+#
+#Off by default so the key combination stays free for everyone happy with the
+#default placement. Ignored while the recipe viewer's search box has focus, so
+#it never eats Ctrl+Left/Right word-jump while you are typing.
+placementKeys = false

@@ -1,0 +1,12 @@
+#Sound to play EX: minecraft:entity.zombie.ambient, minecraft:block.sand.place, ETC IF YOU HEAR AN ENDERCHEST THAT MEANS TYPO OR NON EXISTENT SOUND
+sound = "minecraft:entity.villager.no"
+#Messages The villager can say to player
+messages = ["The villager hates your haircut", "I just don't Feel Like trading", "You stink! Get away!"]
+#Disable The villager messages
+messageToggle = false
+#Enable the mod for wandering Traders
+wanderTrade = true
+#Enable this if you want right click to instantly kill the villager because why not
+killVill = false
+#Does the same thing as KILLVILL but for Wandering traders could be fun
+killWander = false

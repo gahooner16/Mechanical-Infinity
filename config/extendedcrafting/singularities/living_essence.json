@@ -1,0 +1,10 @@
+{
+  "name": "Living Essence",
+  "colors": [
+    "160626",
+    "07040D"
+  ],
+  "ingredient": {
+    "item": "kubejs:living_essence"
+  }
+}

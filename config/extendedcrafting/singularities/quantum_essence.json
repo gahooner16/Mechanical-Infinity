@@ -1,0 +1,10 @@
+{
+  "name": "Quantum Essence",
+  "colors": [
+    "420F59",
+    "4D0752"
+  ],
+  "ingredient": {
+    "item": "kubejs:quantum_essence"
+  }
+}

@@ -1,0 +1,127 @@
+{
+	autofocus_id: "7358D7EAB816638F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "gateways"
+	group: "516A7C1DC3F3854A"
+	id: "2E838CD7BE5063CA"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "63AC6E79BE2AD151"
+			tasks: [{
+				id: "3ECBB4BBDCA024D0"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_naga" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["63AC6E79BE2AD151"]
+			id: "1DCCA30276FC009D"
+			tasks: [{
+				id: "4B5990DF120E01C8"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_lich" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DCCA30276FC009D"]
+			id: "49CC25B209FC2F60"
+			tasks: [{
+				id: "37867B85C920A1A3"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_minoshroom" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["49CC25B209FC2F60"]
+			id: "1B0E45C08F71A36F"
+			tasks: [{
+				id: "3C24CB120FD1C2DC"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_hyra" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B0E45C08F71A36F"]
+			id: "4D540E01624DEFE1"
+			tasks: [{
+				id: "1E357C38DFE2E75E"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_knight_phantom" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D540E01624DEFE1"]
+			id: "26CE32336C0122B3"
+			tasks: [{
+				id: "6BB5C8B5C65503BF"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_the_alpha_yeti" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26CE32336C0122B3"]
+			id: "2C31BB880CED7414"
+			tasks: [{
+				id: "5640034F914D99C2"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_snow_queen" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C31BB880CED7414"]
+			id: "3A78F402C84B284A"
+			tasks: [{
+				id: "767CB6EB26FE917B"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_giants" }, count: 1, id: "gateways:gate_pearl" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "5E2EFCF06BB66DE3"
+			tasks: [{
+				id: "3377804F5EE07908"
+				item: { components: { "gateways:gateway": "minecraft:gateway_of_amethyst" }, count: 1, id: "gateways:gate_pearl" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "7358D7EAB816638F"
+			tasks: [{
+				id: "2BBB9D81B13042AD"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+	]
+}

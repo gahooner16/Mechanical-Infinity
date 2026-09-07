@@ -1,0 +1,9 @@
+// Compost colors for appliedsoul. You may add your own colors, change existing ones, or remove colors that aren't needed.
+ender_star, #289b86
+range_card, #aec0c9
+soul_cell_housing, #658694
+soul_storage_cell_16k, #6ba5b1
+soul_storage_cell_1k, #6c9abc
+soul_storage_cell_256k, #65a1a2
+soul_storage_cell_4k, #7aa4bf
+soul_storage_cell_64k, #75aa9e
