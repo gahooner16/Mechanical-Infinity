@@ -3,61 +3,30 @@ ServerEvents.generateData('after_mods', event => {
     event.json('entangled:recipe/block', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#","ABA","#A#"],"key":{"#":{"item":"kubejs:quantum_essence"},"A":{"tag":"c:obsidians"},"B":{"tag":"c:chests/wooden"}},"result":{"id":"entangled:block","count":1}})
     event.json('sfm:recipe/cable', {"type":"minecraft:crafting_shaped","category":"misc","pattern":["#A#","BCB","#A#"],"key":{"#":{"item":"kubejs:ender_essence"},"A":{"item":"minecraft:light_weighted_pressure_plate"},"B":{"item":"minecraft:iron_bars"},"C":{"tag":"c:chests"}},"result":{"id":"sfm:cable","count":16}})
 })
+
+const matterTypes = global.MatterBlockConfig || [];
+
 ServerEvents.recipes(event => {
-    event.shapeless('kubejs:chaotic_essence_block_5', ['kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4', 'kubejs:chaotic_essence_block_4']).id('kubejsstudio:chaotic_essence_block_5')
-    event.shapeless('kubejs:chaotic_essence_block_4', ['kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3', 'kubejs:chaotic_essence_block_3']).id('kubejsstudio:chaotic_essence_block_4')
-    event.shapeless('kubejs:chaotic_essence_block_3', ['kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2', 'kubejs:chaotic_essence_block_2']).id('kubejsstudio:chaotic_essence_block_3')
-    event.shapeless('kubejs:chaotic_essence_block_2', ['kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1', 'kubejs:chaotic_essence_block_1']).id('kubejsstudio:chaotic_essence_block_2')
-    event.shapeless('kubejs:chaotic_essence_block_1', ['kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block', 'kubejs:chaotic_essence_block']).id('kubejsstudio:chaotic_essence_block_1')
-    event.shapeless(Item.of('kubejs:chaotic_essence_block_4', 9), ['kubejs:chaotic_essence_block_5']).id('kubejsstudio:chaotic_essence_block_4_uncraft')
-    event.shapeless(Item.of('kubejs:chaotic_essence_block_3', 9), ['kubejs:chaotic_essence_block_4']).id('kubejsstudio:chaotic_essence_block_3_uncraft')
-    event.shapeless(Item.of('kubejs:chaotic_essence_block_2', 9), ['kubejs:chaotic_essence_block_3']).id('kubejsstudio:chaotic_essence_block_2_uncraft')
-    event.shapeless(Item.of('kubejs:chaotic_essence_block_1', 9), ['kubejs:chaotic_essence_block_2']).id('kubejsstudio:chaotic_essence_block_1_uncraft')
-    event.shapeless(Item.of('kubejs:chaotic_essence_block', 9), ['kubejs:chaotic_essence_block_1']).id('kubejsstudio:chaotic_essence_block_uncraft')
-    event.shapeless(Item.of('kubejs:chrono_essence_block_4', 9), ['kubejs:chrono_essence_block_5']).id('kubejsstudio:chrono_essence_block_4_uncraft')
-    event.shapeless(Item.of('kubejs:chrono_essence_block_3', 9), ['kubejs:chrono_essence_block_4']).id('kubejsstudio:chrono_essence_block_3_uncraft')
-    event.shapeless(Item.of('kubejs:chrono_essence_block_2', 9), ['kubejs:chrono_essence_block_3']).id('kubejsstudio:chrono_essence_block_2_uncraft')
-    event.shapeless(Item.of('kubejs:chrono_essence_block_1', 9), ['kubejs:chrono_essence_block_2']).id('kubejsstudio:chrono_essence_block_1_uncraft')
-    event.shapeless(Item.of('kubejs:chrono_essence_block', 9), ['kubejs:chrono_essence_block_1']).id('kubejsstudio:chrono_essence_block_uncraft')
-    event.shapeless('kubejs:chrono_essence_block_5', ['kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4', 'kubejs:chrono_essence_block_4']).id('kubejsstudio:chrono_essence_block_5')
-    event.shapeless('kubejs:chrono_essence_block_4', ['kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3', 'kubejs:chrono_essence_block_3']).id('kubejsstudio:chrono_essence_block_4')
-    event.shapeless('kubejs:chrono_essence_block_3', ['kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2', 'kubejs:chrono_essence_block_2']).id('kubejsstudio:chrono_essence_block_3')
-    event.shapeless('kubejs:chrono_essence_block_2', ['kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1', 'kubejs:chrono_essence_block_1']).id('kubejsstudio:chrono_essence_block_2')
-    event.shapeless('kubejs:chrono_essence_block_1', ['kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block', 'kubejs:chrono_essence_block']).id('kubejsstudio:chrono_essence_block_1')
-    event.shapeless('kubejs:draconic_essence_block_5', ['kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4', 'kubejs:draconic_essence_block_4']).id('kubejsstudio:draconic_essence_block_5')
-    event.shapeless('kubejs:draconic_essence_block_4', ['kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3', 'kubejs:draconic_essence_block_3']).id('kubejsstudio:draconic_essence_block_4')
-    event.shapeless('kubejs:draconic_essence_block_3', ['kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2', 'kubejs:draconic_essence_block_2']).id('kubejsstudio:draconic_essence_block_3')
-    event.shapeless('kubejs:draconic_essence_block_2', ['kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1', 'kubejs:draconic_essence_block_1']).id('kubejsstudio:draconic_essence_block_2')
-    event.shapeless('kubejs:draconic_essence_block_1', ['kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block', 'kubejs:draconic_essence_block']).id('kubejsstudio:draconic_essence_block_1')
-    event.shapeless(Item.of('kubejs:draconic_essence_block_4', 9), ['kubejs:draconic_essence_block_5']).id('kubejsstudio:draconic_essence_block_4_uncraft')
-    event.shapeless(Item.of('kubejs:draconic_essence_block_3', 9), ['kubejs:draconic_essence_block_4']).id('kubejsstudio:draconic_essence_block_3_uncraft')
-    event.shapeless(Item.of('kubejs:draconic_essence_block_2', 9), ['kubejs:draconic_essence_block_3']).id('kubejsstudio:draconic_essence_block_2_uncraft')
-    event.shapeless(Item.of('kubejs:draconic_essence_block_1', 9), ['kubejs:draconic_essence_block_2']).id('kubejsstudio:draconic_essence_block_1_uncraft')
-    event.shapeless(Item.of('kubejs:draconic_essence_block', 9), ['kubejs:draconic_essence_block_1']).id('kubejsstudio:draconic_essence_block_uncraft')
-    event.shapeless(Item.of('kubejs:mystic_essence_block_4', 9), ['kubejs:mystic_essence_block_5']).id('kubejsstudio:mystic_essence_block_4_uncraft')
-    event.shapeless(Item.of('kubejs:mystic_essence_block_3', 9), ['kubejs:mystic_essence_block_4']).id('kubejsstudio:mystic_essence_block_3_uncraft')
-    event.shapeless(Item.of('kubejs:mystic_essence_block_2', 9), ['kubejs:mystic_essence_block_3']).id('kubejsstudio:mystic_essence_block_2_uncraft')
-    event.shapeless(Item.of('kubejs:mystic_essence_block_1', 9), ['kubejs:mystic_essence_block_2']).id('kubejsstudio:mystic_essence_block_1_uncraft')
-    event.shapeless(Item.of('kubejs:mystic_essence_block', 9), ['kubejs:mystic_essence_block_1']).id('kubejsstudio:mystic_essence_block_uncraft')
-    event.shapeless('kubejs:mystic_essence_block_5', ['kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4', 'kubejs:mystic_essence_block_4']).id('kubejsstudio:mystic_essence_block_5')
-    event.shapeless('kubejs:mystic_essence_block_4', ['kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3', 'kubejs:mystic_essence_block_3']).id('kubejsstudio:mystic_essence_block_4')
-    event.shapeless('kubejs:mystic_essence_block_3', ['kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2', 'kubejs:mystic_essence_block_2']).id('kubejsstudio:mystic_essence_block_3')
-    event.shapeless('kubejs:mystic_essence_block_2', ['kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1', 'kubejs:mystic_essence_block_1']).id('kubejsstudio:mystic_essence_block_2')
-    event.shapeless('kubejs:mystic_essence_block_1', ['kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block', 'kubejs:mystic_essence_block']).id('kubejsstudio:mystic_essence_block_1')
-    event.shapeless('kubejs:nuclear_essence_block_5', ['kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_4']).id('kubejsstudio:nuclear_essence_block_5')
-    event.shapeless('kubejs:nuclear_essence_block_4', ['kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_3', 'kubejs:nuclear_essence_block_3']).id('kubejsstudio:nuclear_essence_block_4')
-    event.shapeless('kubejs:nuclear_essence_block_3', ['kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_2', 'kubejs:nuclear_essence_block_2']).id('kubejsstudio:nuclear_essence_block_3')
-    event.shapeless('kubejs:nuclear_essence_block_2', ['kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block_1', 'kubejs:nuclear_essence_block_1']).id('kubejsstudio:nuclear_essence_block_2')
-    event.shapeless('kubejs:nuclear_essence_block_1', ['kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block_4', 'kubejs:nuclear_essence_block', 'kubejs:nuclear_essence_block']).id('kubejsstudio:nuclear_essence_block_1')
-    event.shapeless(Item.of('kubejs:nuclear_essence_block_4', 9), ['kubejs:nuclear_essence_block_5']).id('kubejsstudio:nuclear_essence_block_4_uncraft')
-    event.shapeless(Item.of('kubejs:nuclear_essence_block_3', 9), ['kubejs:nuclear_essence_block_4']).id('kubejsstudio:nuclear_essence_block_3_uncraft')
-    event.shapeless(Item.of('kubejs:nuclear_essence_block_2', 9), ['kubejs:nuclear_essence_block_3']).id('kubejsstudio:nuclear_essence_block_2_uncraft')
-    event.shapeless(Item.of('kubejs:nuclear_essence_block_1', 9), ['kubejs:nuclear_essence_block_2']).id('kubejsstudio:nuclear_essence_block_1_uncraft')
-    event.shapeless(Item.of('kubejs:nuclear_essence_block', 9), ['kubejs:nuclear_essence_block_1']).id('kubejsstudio:nuclear_essence_block_uncraft')
-    event.shapeless('kubejs:chrono_essence_block', ['kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence', 'kubejs:chrono_essence']).id('kubejsstudio:chrono_essence_block')
-    event.shapeless('kubejs:draconic_essence_block', ['kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence', 'kubejs:draconic_essence']).id('kubejsstudio:draconic_essence_block')
-    event.shapeless('kubejs:nuclear_essence_block', ['kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence', 'kubejs:nuclear_essence']).id('kubejsstudio:nuclear_essence_block')
-    event.shapeless('kubejs:plasma_essence_block', ['kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence', 'kubejs:plasma_essence']).id('kubejsstudio:plasma_essence_block')
-    event.shapeless('kubejs:chaotic_essence_block', ['kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence', 'kubejs:chaotic_essence']).id('kubejsstudio:chaotic_essence_block')
-    event.shapeless('kubejs:mystic_essence_block', ['kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence', 'kubejs:mystic_essence']).id('kubejsstudio:mystic_essence_block')
-})
+    matterTypes.forEach(function (entry) {
+        var key = entry.key;
+        var maxCompression = entry.maxCompression || 5;
+
+        for (var tier = 0; tier < maxCompression; tier++) {
+            var currentId = tier === 0 ? key + '_essence_block' : key + '_essence_block_' + tier;
+            var nextId = key + '_essence_block_' + (tier + 1);
+            var compressId = 'kubejs:' + key + '_compress_' + tier + '_to_' + (tier + 1);
+            var decompressId = 'kubejs:' + key + '_decompress_' + (tier + 1) + '_to_' + tier;
+
+            event.shaped(Item.of(nextId, 1), [
+                '###',
+                '#A#',
+                '###'
+            ], {
+                '#': currentId,
+                A: currentId
+            }).id(compressId);
+
+            event.shapeless(Item.of(currentId, 9), [nextId]).id(decompressId);
+        }
+    });
+});
